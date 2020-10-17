@@ -1,4 +1,3 @@
-  
 using System.Collections.Generic;
 
 namespace Test.Granja
@@ -11,6 +10,7 @@ namespace Test.Granja
         public List <Cultivo> Cultivos{ get; set; }
         public int ProduccionFrutas { get; set; }
         public int ProduccionDinero{ get; set; }
+        public bool enDomo{ get; set; }
 
         #endregion Properties
 
